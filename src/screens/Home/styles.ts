@@ -17,7 +17,9 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   form: {
+    position: 'absolute',
     width: '100%',
+    marginTop: 142,
     flexDirection: 'row',
     justifyContent: 'center'
   },
@@ -33,8 +35,8 @@ export const styles = StyleSheet.create({
     fontSize: 16,
   },
   buttonText: {
-    color: 'white',
-    fontSize: 24
+    width: 16,
+    height: 16,
   },
   button: {
     width: 52,
@@ -45,4 +47,32 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  info: {
+    flexDirection: 'row',
+    height: 50,
+    top: 20,
+    margin: 24,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  infoCounter: {
+    width: 25,
+    height: 19,
+    marginLeft: 8,
+    borderRadius: 999,
+    backgroundColor: '#333333',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  tasks: {
+    flex: 1,
+    margin: 24,
+    alignItems: 'center',
+  },
+  clipboard: {
+    width: 56,
+    height: 56,
+    marginTop: 48,
+    marginBottom: 16,
+  }
 });
